@@ -1,0 +1,14 @@
+header {
+    display: flex;
+}
+
+h1 {
+    padding: 50px 100px;
+    margin: auto;
+}
+
+img {
+    padding: 0px 150px;
+    margin: auto;
+    width: 170px;
+}

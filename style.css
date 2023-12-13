@@ -1,0 +1,110 @@
+.ob{
+    text-align: center;
+    position: relative;
+    right: -12px;
+}
+
+.menu {
+    display: flex;
+    gap: 30px;
+    list-style-type: none;
+    justify-content: center;
+    padding: 0px 0px 20px 0px;
+    border-bottom: 3px solid yellowgreen;
+    border-radius: 2px 2px;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+.mena {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+.mena:active{
+    color: rgb(149, 216, 48);
+    text-decoration: underline 2px;
+}
+
+nav {
+    position: relative;
+    right: 15px;
+}
+
+.nadpis {
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 400;
+    text-align: center;
+    padding: 20px 0px 20px 0px;
+    font-weight: bold;
+}
+
+.info {
+    max-width: 500px;
+    margin: auto;
+    padding: 8px 0px;
+    font-size: 18px;
+    text-align: justify;
+}
+
+.info-cenik {
+    max-width: 500px;
+    margin: auto;
+    padding: 8px 0px;
+    font-size: 18px;
+    text-align: justify;
+    font-weight: bold;
+    text-decoration: underline 1.5px;
+}
+
+.info-ceny {
+     max-width: 500px;
+    margin: auto;
+    
+    font-size: 18px;
+    text-align: justify;
+}
+
+.info-konec{
+    max-width: 500px;
+    margin: auto;
+    padding: 10px 0px 30px 0px;
+    font-size: 18px;
+    text-align: justify;
+    border-bottom: 3px yellowgreen
+}
+
+.ceny{
+    padding: 10px 0px 10px 110px;
+}
+
+.cara-pod-text{
+    border: 2px yellowgreen solid;
+    width: 96%;   
+    margin: 20px 0px; 
+}
+
+.rychly-kontakt {
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+    text-align: center;
+    padding: 20px 0px 20px 0px;
+    font-weight: bold;
+}
+
+.kontakt {
+    text-align: center;
+    margin: 10px;
+   
+    
+}
+
+h6{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 12px;
+    color: rgb(78, 77, 77);
+}

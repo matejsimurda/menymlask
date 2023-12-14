@@ -1,3 +1,7 @@
+body {
+    max-width:500px;
+}
+
 .ob{
     text-align: center;
     position: relative;

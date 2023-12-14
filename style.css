@@ -1,5 +1,10 @@
-article {
+.informace {
     max-width:320px;
+    margin:auto;
+}
+
+.article-kontakt {
+    max-width:300px;
     margin:auto;
 }
 

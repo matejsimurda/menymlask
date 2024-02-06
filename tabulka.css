@@ -1,0 +1,379 @@
+body {
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+}
+
+@font-face {
+    font-family: sf;
+    src: url(fonty/SFPRODISPLAYMEDIUM.OTF);
+}
+
+.pocitac_zobrazeni {
+    display: none;
+}
+
+.menu {
+    width: 100%;
+    height: 200px;
+}
+
+.panel {
+    width: 100%;
+    height: 100px;
+    margin-top: 5px;
+    background-color: rgb(39, 39, 39);
+    text-align: center;
+    color: #fff;
+    z-index: 100;
+}
+
+aside.panel {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.menu_odkaz {
+    color: #fff;
+    font-size: large;
+    font-family: sf;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.logo_sparta {
+    width: 150px;
+    z-index: 10;
+}
+
+.kk {
+    height: 10px;
+}
+
+.kk2 {
+    height: 4px;
+    background-color: black;
+}
+
+.kk1 {
+    height: 6px;
+    background-color: rgb(255, 255, 255);
+}
+
+
+.tabulka1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 4fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    text-align: center;
+    font-family: sf;
+    background-color: rgb(223, 226, 23);
+}
+
+.tabulka2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 4fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 174, 255);
+    font-family: sans-serif;
+    
+}
+
+.tabulka3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 4fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(221, 221, 221);
+    font-family: sans-serif;
+    
+}
+
+.tabulka4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 4fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(221, 221, 221);
+    font-family: sans-serif;
+    
+}
+
+.tabulka5 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 4fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(221, 221, 221);
+    font-family: sans-serif;
+  
+}
+
+.tabulka6 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 4fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(221, 221, 221);
+    font-family: sans-serif;
+   
+}
+
+.tabulka7 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 4fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(221, 221, 221);
+    font-family: sans-serif;
+   
+}
+
+.tabulka8 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 4fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(221, 221, 221);
+    font-family: sans-serif;
+
+}
+
+.tabulka9 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 4fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(221, 221, 221);
+    font-family: sans-serif;
+    
+}
+
+.tabulka10 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 4fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(221, 221, 221);
+    font-family: sans-serif;
+    
+}
+
+.tabulka11 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 4fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(221, 221, 221);
+    font-family: sans-serif;
+    
+}
+
+.tabulka12 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 4fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(221, 221, 221);
+    font-family: sans-serif;
+   
+}
+
+.tabulka13 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 4fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(221, 221, 221);
+    font-family: sans-serif;
+  
+}
+
+
+.tabulka14 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 4fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(221, 221, 221);
+    font-family: sans-serif;
+}
+
+.tabulka15 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 4fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(221, 221, 221);
+    font-family: sans-serif;
+    background-color: rgb(145, 145, 145);
+}
+
+.tabulka16 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 4fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(145, 145, 145);
+    font-family: sans-serif;
+}
+
+.tabulka17 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 4fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(199, 0, 0);
+    font-family: sans-serif;
+}
+
+.tabulka1, .tabulka2, .tabulka3, .tabulka4, .tabulka5, .tabulka6, .tabulka7, .tabulka8, .tabulka9, .tabulka10, .tabulka11, .tabulka12, .tabulka13, .tabulka14, .tabulka15, .tabulka16, .tabulka17>div {
+    padding: 7px;
+    font-weight: bold;
+}
+
+.tab_nadpis {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.liga {
+    color: rgb(223, 226, 23);
+    font-family: sans-serif;
+}
+
+.nohy{
+    background-color:rgb(39, 39, 39) ;
+    display: grid;
+    position: relative;
+    bottom: 0px;
+    font-family: sf;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr ;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    }
+
+    .ooo{
+        height: 60px;
+    }
+
+    .tabvse{
+        padding: 50px 50px 0px 50px;
+    }
+
+@media screen and (min-width:901px) {
+    .mobilni_zobrazeni{  
+        display: none; 
+    }
+
+    .pocitac_zobrazeni{
+        display:block;
+    }
+
+    header{
+        max-width: 100%;
+        margin: auto;
+    }
+
+    .vsemax{
+        max-width: 100%;
+        margin: auto;
+    }
+    
+    header {
+        background-color: rgb(39, 39, 39);
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 1000; 
+    }
+
+    nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px 20px; 
+    }
+
+    ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+    }
+
+    li {
+        margin-right: 15px; 
+    }
+
+    a {
+        color: white;
+        text-decoration: none;
+        font-family: sans-serif;
+        font-weight: 600;
+        font-size:medium;
+    }
+
+    .mmmm:hover {
+        text-decoration: underline;
+        text-decoration-color:rgb(85, 0, 0);
+        text-decoration-thickness: 4px;
+    }
+
+    .tabulka1, .tabulka2, .tabulka3, .tabulka4, .tabulka5, .tabulka6, .tabulka7, .tabulka8, .tabulka9, .tabulka10, .tabulka11, .tabulka12, .tabulka13, .tabulka14, .tabulka15, .tabulka16, .tabulka17>div {
+        padding: 20px;
+    }
+
+    .ooo{
+        height: 100px;
+    }
+
+    .nohy{
+        background-color:rgb(39, 39, 39) ;
+        display: grid;
+        position: relative;
+        bottom: 0px;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr ;
+        text-align: center;
+        color: #fff;
+        font-size: 20px;
+        font-family: sf;
+        }
+
+}
